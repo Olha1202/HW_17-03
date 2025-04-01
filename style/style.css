@@ -8,8 +8,7 @@ body{
   
 header{
     background-color: rgb(102, 142, 104);
-    font-family: Yu Gothic;
-    /*height: 3.25%;*/
+    font-family: Yu Gothic;   
   }
 
 .navbar-brand-font_header{
@@ -27,7 +26,37 @@ header{
     font-weight: 500;
     line-height: 29px;    
     text-decoration: none;     
-  } 
+  }
+  
+.menu_button_header{
+  color: white;
+  font-size: 32px;  
+}
+
+.navbar-toggler{
+  border: none;  
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0;
+}
+
+.btn-close_header{
+  color: white;
+  font-size: 30px;
+  margin-left: auto;
+  
+}
+
+.navbar-toggler:not(.collapsed) .menu_button_header{
+  display: none;
+}
+
+.navbar-toggler.collapsed .btn-close_header{
+  display: none;
+}
+
+
 
 .main_h1{
     background-image: url(../image/Coffee.png);
@@ -54,8 +83,7 @@ span{
   font-family: Yu Gothic;
   font-weight: 500;
   font-size: 20px;
-  line-height: 35px;
-  /*text-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.7);*/
+  line-height: 35px;  
 }
 
 p{
@@ -97,7 +125,6 @@ h3{
 }
   
 .main_news{
-  /*height: 16.54%;*/
   background: rgba(129, 97, 59, 0.2);
 }
 
@@ -116,7 +143,6 @@ h6{
 }
 
 footer{
-  /*height: 7.33%;*/
   position: relative;
   
 }
@@ -154,10 +180,6 @@ footer{
   height: 21.18vh;
 }
 
-/*.main_about{
-  
-}*/
-
 .row{
   flex-direction: column;
   text-align: center;
@@ -187,6 +209,26 @@ h3{
 
 .col-4, .col-12, .col-6{
   width: 100%;
+}
+
+.navbar-nav{  
+  background-color: white;
+  display: flex;
+  justify-content:flex-end;
+  gap: 27px;
+  padding: 42px 46px 42px 46px;
+  border: 1px;
+}
+
+.nav-link_header{
+  color: rgb(102, 142, 104);
+}
+
+.navbar-collapse {
+  display: grid;
+  flex-grow: 1;
+  align-items: center;
+  text-align: center;  
 }
 
 }
