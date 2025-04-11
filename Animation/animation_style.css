@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+/*@keyframes{
+    
+}*/
+
+.animation{
+    background-image: url("image/ohm-153294_1280.png");
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    color: #e61414;
+    
+}

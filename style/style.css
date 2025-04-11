@@ -174,7 +174,7 @@ footer{
   text-decoration: none;
 }
 
-@media screen and (max-width:768px){
+@media (max-width:991px){
 
 .main_h1{
   height: 21.18vh;
@@ -231,4 +231,20 @@ h3{
   text-align: center;  
 }
 
+}
+
+@media (max-width:1200px){
+  .row{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  img{
+    max-width: 100%;
+}
+.p_footer{
+  text-align: center !important; 
+}
 }
